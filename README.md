@@ -44,7 +44,7 @@ rosrun turtlesim turtlesim_node
 rosrun ros_qt_gui_template ros_qt_gui_template 
 ```
 
-NOTE: If you want to edit your project from qtcreator watch this tutorial :
+NOTE: If you want to edit your project from qtcreator watch this tutorial
 ```bash
 https://www.youtube.com/watch?v=Can7zppN-Kg&t=519s
 ```
