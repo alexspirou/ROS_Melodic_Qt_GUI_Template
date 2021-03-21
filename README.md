@@ -7,8 +7,11 @@ If you find it useful give a star :)
 
 
 ## Installation
-
-### Create a catkin workspace or if cd if you have already one
+### Install qt build for ROS Melodic.
+```bash
+sudo apt-get install ros-melodic-qt-build
+```
+### Create a catkin workspace or cd if you have already one
 ```bash
 mkdir -p ~/catkin_ws/src
 ```
@@ -16,18 +19,27 @@ mkdir -p ~/catkin_ws/src
 ```bash
 git clone https://github.com/alexspirou/ROS_Melodic_Qt_GUI_Template.git
 ```
+### Install turtlesim
+```bash
+sudo apt-get install ros-melodic-turtlesim
+```
 ### Catkin make
 ```bash
 cd ~/catkin_ws/
 catkin_make
 ```
 
-After install Qt for ROS it needs to install qt build.
 
-
-
+# Run GUI
+### First source your setup.bash file
 ```bash
-sudo apt-get install ros-melodic-qt-build
+source devel/setup.bash
 ```
-# Create a workspace folder
+### Run turtlesim
 ```bash
+rosrun turtlesim turtlesim_node
+```
+### Rub GUI 
+```bash
+rosrun ros_qt_gui_template ros_qt_gui_template 
+```
