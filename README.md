@@ -3,7 +3,7 @@ I wanted to create a RUI-Qt GUI and I had a hard time because there are not many
 
 ROS_Melodic_Qt_GUI_Template is a Graphical User Interface programmed with Qt framework. It's a useful GUI for any ROS project that allows you to control your Robot and reading data from sensors. You can also generate a qt-ros application package with command catkin_create_qt_pkg but ROS_Melodic_Qt_GUI_Template is simpler and more customisable. Also CMakeLists.txt has the necessary parameters setted up to make it executable.
 
-You can check the GUI with controling turtlesim.
+You can check the GUI by controling turtlesim, follow the instructions below.
 
 If you find it useful give a :star: :)
 
