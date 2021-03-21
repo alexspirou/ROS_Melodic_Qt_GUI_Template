@@ -39,7 +39,7 @@ source devel/setup.bash
 ```bash
 rosrun turtlesim turtlesim_node
 ```
-### Rub GUI 
+### Run GUI 
 ```bash
 rosrun ros_qt_gui_template ros_qt_gui_template 
 ```
