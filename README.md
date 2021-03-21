@@ -1,5 +1,5 @@
 # ROS_Melodic_Qt_GUI_Template
-ROS_Melodic_Qt_GUI_Template is a Graphical User Interface programmed with Qt framework. It's a useful GUI for any ROS project that allows you to control your Robot and reading data from sensors.
+ROS_Melodic_Qt_GUI_Template is a Graphical User Interface programmed with Qt framework. It's a useful GUI for any ROS project that allows you to control your Robot and reading data from sensors. If you find it useful give a star :)
 
 ![](/resources/gui.gif)
 
