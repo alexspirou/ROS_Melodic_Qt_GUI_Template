@@ -18,6 +18,7 @@ sudo apt-get install ros-melodic-qt-build
 ### Create a catkin workspace or cd if you have already one
 ```bash
 mkdir -p ~/catkin_ws/src
+cd catkin_ws/src/
 ```
 ### Clonde repository to src folder
 ```bash
