@@ -36,16 +36,17 @@ catkin_make
 
 
 # Run GUI
-### First source your setup.bash file
+### First open a new terminal and run a rosmaster
 ```bash
-source devel/setup.bash
+roscore
 ```
-### Run turtlesim
+### Run turtlesim in a new terminal
 ```bash
 rosrun turtlesim turtlesim_node
 ```
-### Run GUI 
+### Open another terminal, source your bashrc file and RUN GUI
 ```bash
+source devel/setup.bash
 rosrun ros_qt_gui_template ros_qt_gui_template 
 ```
 
