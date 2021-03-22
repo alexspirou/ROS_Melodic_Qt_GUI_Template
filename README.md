@@ -38,7 +38,7 @@ catkin_make
 
 
 # Run GUI
-### First open a new terminal and run a rosmaster
+### First run a rosmaster
 ```bash
 roscore
 ```
