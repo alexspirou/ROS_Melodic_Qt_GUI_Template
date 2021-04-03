@@ -22,7 +22,7 @@ sudo apt-get install ros-melodic-qt-build
 mkdir -p ~/catkin_ws/src
 cd catkin_ws/src/
 ```
-### Clonde repository to src folder
+### Clone repository to src folder
 ```bash
 git clone https://github.com/alexspirou/ROS_Melodic_Qt_GUI_Template.git
 ```
