@@ -48,7 +48,6 @@ void MainWindow::pose_values()
     ui->theta_lcd->display(turtlesim_pose.theta);
     ui->linear_lcd->display(turtlesim_pose.linear_velocity);
     ui->angular_lcd->display(turtlesim_pose.angular_velocity);
-    ros_f->ultrasonic_subscriber();
 }
 
 
