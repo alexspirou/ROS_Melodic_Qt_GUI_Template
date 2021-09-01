@@ -14,7 +14,6 @@ MainWindow::MainWindow(QWidget *parent) :
     this->setWindowTitle("ROS-QT GUI Template");
     timer = new QTimer(this);
     connect(timer, SIGNAL(timeout()),this,SLOT(pose_values()));
-    connect(timer, SIGNAL(timeout()),this,SLOT(optical_encoder_measurements()));
     timer->start(500);
     manual_window = new Manual_Window();
     //ROS
@@ -25,7 +24,9 @@ MainWindow::MainWindow(QWidget *parent) :
 MainWindow::~MainWindow()
 {
     delete ui;
-    qDebug() << "Destructor OK";
+    ui = NULL;
+    delete ros_f;
+    ros_f =NULL;
 }
 
 
