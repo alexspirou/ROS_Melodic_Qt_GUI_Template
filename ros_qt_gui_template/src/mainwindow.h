@@ -25,7 +25,7 @@ public Q_SLOTS:
     void on_Exit_clicked();
 
 /*/private slots: Note if you want to create function from mainwindow.ui delete
- * private slots and put them with public QSLOTS
+ * private slots and put them in public QSLOTS
  * */
 
 
