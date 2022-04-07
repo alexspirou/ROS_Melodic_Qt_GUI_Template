@@ -18,7 +18,7 @@ public:
     static void turtlesim_pose_callback(const turtlesim::Pose::ConstPtr& pose_msg){
         turtlesim_pose = *pose_msg;
     }
-    void ultrasonic_subscriber()
+    void pose_subscriber()
     {
         ros::Rate loop_rate(5);
         pose_sub = n->subscribe(turtle + "/pose",100,turtlesim_pose_callback);
@@ -36,7 +36,7 @@ public:
     double get_linear_x(){return linear_x;}
 
 private:
-
+    
     std::string turtle = "/turtle1";
     ros::NodeHandle *n;
     //cmd_vel topic

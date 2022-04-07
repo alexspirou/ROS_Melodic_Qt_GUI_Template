@@ -13,13 +13,12 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
     this->setWindowTitle("ROS-QT GUI Template");
     timer = new QTimer(this);
+    // Update lcd's values
     connect(timer, SIGNAL(timeout()),this,SLOT(pose_values()));
     timer->start(500);
     manual_window = new Manual_Window();
     //ROS
     ros_f = new _Ros();
-    qDebug() << "Constructor OK";
-
 }
 MainWindow::~MainWindow()
 {
@@ -43,11 +42,16 @@ void MainWindow::on_Exit_clicked()
 
 void MainWindow::pose_values()
 {
+    // Subscribe turtlesim's poses
+    ros_f->pose_subscriber();
+
+    // Display the values
     ui->x_lcd->display(turtlesim_pose.x);
     ui->y_lcd->display(turtlesim_pose.y);
     ui->theta_lcd->display(turtlesim_pose.theta);
     ui->linear_lcd->display(turtlesim_pose.linear_velocity);
     ui->angular_lcd->display(turtlesim_pose.angular_velocity);
+    
 }
 
 
