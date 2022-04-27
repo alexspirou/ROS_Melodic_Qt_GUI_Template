@@ -7,7 +7,6 @@ You can check the GUI by controling turtlesim, press "Teleop" button and move tu
 You can see the specific keys, in "Keys info" button.
 For installation follow the instructions below.
 
-If you find it useful give a :star: :)
 
 ![](/resources/gui.gif)
 
