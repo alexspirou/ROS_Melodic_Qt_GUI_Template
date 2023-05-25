@@ -1,11 +1,11 @@
 # ROS_Melodic_Qt_GUI_Template
-I was trying to create a RUI-Qt GUI and I had a hard time because there are not many and not clear resources on the Internet. For that reason I am uploading this project for anyone who finds it difficult as well.
+I have created a ROS_Melodic_Qt_GUI_Template, a user-friendly Graphical User Interface developed using the Qt framework. This GUI is specifically designed to facilitate the control of your Robot and retrieve data from sensors in any ROS project. It aims to provide a simpler and more customizable alternative to the qt-ros application package generated with the command catkin_create_qt_pkg. Moreover, the CMakeLists.txt file is already configured with the necessary parameters to ensure its executability.
 
-ROS_Melodic_Qt_GUI_Template is a Graphical User Interface programmed with Qt framework. It's a useful GUI for any ROS project that allows you to control your Robot and reading data from sensors. You can also generate a qt-ros application package with command catkin_create_qt_pkg but ROS_Melodic_Qt_GUI_Template is simpler and more customisable. Also CMakeLists.txt has the necessary parameters are set up to make it executable.
+To enhance your understanding of this GUI and ease your usage, I have uploaded the project for anyone encountering difficulties in this area. It serves as a valuable resource, particularly due to the limited and unclear information available on the internet regarding RUI-Qt GUI creation.
 
-You can check the GUI by controling turtlesim, press "Teleop" button and move turtle with your keyboard. 
-You can see the specific keys, in "Keys info" button.
-For installation follow the instructions below.
+One notable feature of this GUI is its seamless integration with the turtlesim, allowing you to control the turtle by simply pressing the "Teleop" button and utilizing your keyboard. For a comprehensive list of the specific keys and their functions, please refer to the "Keys info" button within the interface.
+
+To install and use this GUI effectively, please follow the instructions provided below.
 
 
 ![](/resources/gui.gif)
